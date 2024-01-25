@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.Mobile-view
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust column sizes as needed */
+    gap: 20px; /* Adjust gap between items as needed */
+    justify-items: center;
+    margin: 20px; /* Adjust margin as needed */
+}
+.MoV-tik-tok
+{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.MoV-apple
+{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.MoV-Barcelona
+{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.MoV-Barcelona, .MoV-apple, .MoV-tik-tok
+{
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #d3d3d3;
+}
+
