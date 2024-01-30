@@ -11,6 +11,9 @@
         justify-content: space-around;
         background-color: #13293D;
     }
+    .navigation a{
+        display: inline;
+    }
 
     main{
         display: grid;

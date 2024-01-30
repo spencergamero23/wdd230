@@ -18,3 +18,11 @@ main div{
     background-color: #3A7D44;
     color: #F3E5AB;
 }
+.large-wireframe{
+    max-width: 50%;
+    max-height: 50%;
+}
+.mobile-wireframe{
+    max-width: 25%;
+    max-height: 25%;
+}
