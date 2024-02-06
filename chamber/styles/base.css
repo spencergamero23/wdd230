@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: auto 800px auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows:auto auto auto auto;
     justify-items: center;
     background-color: #F4F1DE;
@@ -9,8 +9,8 @@ body{
 header{
     grid-column: 2;
     grid-row: 1;
-    background-color: #8d373b;
-    width: 800px;
+    background-color: #3A7D44;
+    width: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -22,13 +22,68 @@ header{
 main{
     grid-column: 2;
     grid-row: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+}
+
+.img-container1{
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 1px solid black;
+    
+}
+
+.everett-park{
+    padding-top: 1em;
+    height: 15%;
+}
+
+.img-container2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: 1px solid black;
+}
+
+.everett-ivars{
+    padding-top: 1em;
+    height: 15%;
+}
+
+.img-container3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+
+.everett-library{
+    height: 50%;
+}
+
+.img-container4{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 1px solid black;
+}
+.everett-skateshop{
+    height: 20%;
+}
+.img-container5{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border: 1px solid black;
+}
+.everett-funko{
+    height: 20%;
 }
 
 footer{
     border-radius: 25px;
     grid-column: 1/4;
     grid-row:4;
-    background-color: #8d373b;
+    background-color: #3A7D44;
     color: white;
     width: 100%;
 }
@@ -61,33 +116,16 @@ h1{
   h2{
     text-align: center;
   }
-  h3{
-    background-color: #8d373b;
-    grid-row: 1;
-    color: #fffafa;
-    margin: 0px;
-    border-radius: 25px 25px 0px 0px;
-    height: 50px;
-    display: grid;
-    place-content: center;
-  }
-  .card{
-    border-radius: 25px;
-    display: grid;
-    grid-template-rows: auto auto;
-    border: 1px solid black;
-    margin-bottom: 50px;
-  }
   
   .navigation a:hover {
     background-color: grey;
   }
   
   .navigation a.active {
-    background-color: #13293D;
+    background-color: #04AA6D;
     color: white;
   }
-  .card h3, p
+  p
   {
     text-align: center;
   }
@@ -102,7 +140,4 @@ h1{
   }
   .open a{
     display: block;
-  }
-  iframe{
-    width: 100%;
   }
