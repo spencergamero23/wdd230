@@ -1,23 +1,39 @@
+:root{
+  --text: white;
+  --light-header-footer: #3A7D44;
+  --light-body-background: #F4F1DE;
+  --light-nav: #13293D;
+  --light-nav-background: grey;
+  --dark-text:black;
+  --dark-body-background: #002C56;
+  --dark-nav: #C4CED4;
+  --dark-header-footer: #005C5C; 
+  --dark-nav-background: #002C56;
+
+}
+
+
 body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto, auto, 1fr, auto ;
     justify-items: center;
-    background-color: #F4F1DE;
+    background-color: var(--light-body-background);
 }
 
 header{
     grid-column: 1/4;
     grid-row: 1;
-    background-color: #3A7D44;
+    background-color: var(--light-header-footer);
     width: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    color: white;
-    
+    color: var(--text);
+    padding-right: 2em;
 }
+
 
 main{
     grid-column: 2;
@@ -26,6 +42,8 @@ main{
     grid-template-columns: auto auto;
     grid-template-rows: 45rem, 45rem, 45rem;
     grid-gap: 30px;
+    margin-left: 1em;
+    
     
 }
 
@@ -79,8 +97,8 @@ main{
 .everett-funko{
     height: 20%;
 }
-.img-container1,.img-container2,.img-container3,.img-container4,.img-container5{
-    height: 33rem;
+.img-container1,.img-container2,.img-container4,.img-container5{
+    height: 34rem;
 }
 .img-container3{
     height: 20rem;
@@ -89,10 +107,11 @@ footer{
     border-radius: 25px;
     grid-column: 1/4;
     grid-row:4;
-    background-color: #3A7D44;
-    color: white;
+    background-color: var(--light-header-footer);
+    color: var(--text);
     width: 100%;
 }
+
 
 h1{
     grid-column: 2;
@@ -104,26 +123,27 @@ h1{
     width: 100%;
 }
 .navigation a {
-    background-color: #13293D;
-    color: white;
+    background-color: var(--light-nav);
+    color: var(--text);
     display: block;
     padding: 12px;
     text-decoration: none;
     text-align: center;
-    
   }
+
   h2{
     text-align: center;
   }
   
   .navigation a:hover {
-    background-color: grey;
+    background-color: var(--light-nav-background);
   }
   
   .navigation a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: var(--light-header-footer);
+    color: var(--text);
   }
+
   p
   {
     text-align: center;
@@ -141,12 +161,73 @@ h1{
     display: block;
   }
   .picture{
-    padding-top: 3em;
-    padding-left: 1em;
+    margin-top: 4em;
+    margin-left: 1em;
   }
+  div p{
+    border: 1px solid black;
+    background-color: var(--light-nav);
+    color: var(--text);
+  }
+
   #menu{
-    position: relative;
-    top: 7em;
-    left: 26em;
-    height: 50%;
+    position: absolute;
+    top: 8em;
+    left: 28.5em;
+    height: 5%;
+  }
+  /* darkmode*/
+  body.dark-mode{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto, auto, 1fr, auto ;
+    justify-items: center;
+    background-color: var(--dark-body-background);
+  }
+  
+  header.dark-mode{
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: var(--dark-header-footer);
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    color: var(--text);
+    padding-right: 2em;
+  }
+
+  footer.dark-mode{
+    border-radius: 25px;
+    grid-column: 1/4;
+    grid-row:4;
+    background-color: var(--dark-header-footer);
+    color: var(--text);
+    width: 100%;
+  }
+
+  .navigation a.dark-mode {
+    background-color: var(--dark-nav);
+    color: var(--dark-text);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .navigation a:hover.dark-mode {
+    background-color: var(--light-nav);
+    color: var(--text);
+  }
+
+  .navigation a.active.dark-mode {
+    background-color: var(--dark-header-footer);
+    color: var(--text);
+  }
+
+  div p.dark-mode{
+    border: 1px solid black;
+    background-color: var(--dark-nav);
+    color: var(--dark-text);
   }

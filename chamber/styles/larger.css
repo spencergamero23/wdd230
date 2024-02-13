@@ -1,0 +1,87 @@
+@media screen and (min-width: 62em)
+{
+
+    header{
+        grid-column: 1/4;
+        width: 100%;
+    }
+    .navigation
+    {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--light-nav)
+    }
+
+    .navigation.darkmode
+    {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--dark-nav)
+    }
+    
+    .navigation a{
+        display: inline;
+    }
+
+    main{
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #menu{
+        display: none;
+    }
+    .img-container1{
+        height: 50%;
+        width: 100%;
+        padding-top: 1em;
+    }
+    .everett-park{
+        height: 100%;
+        width: 100%;
+    }
+    .img-container2{
+        height: 50%;
+        width: 100%;
+        padding-top: 1em;
+    }
+    .everett-ivars{
+        height: 100%;
+        width: 100%;
+    }
+    .img-container3{
+        height: 75%;
+        width: 100%;
+    }
+    
+    .everett-library{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .img-container4{
+        height: 50%;
+        width: 100%;
+    }
+    .everett-skateshop{
+        height: 100%;
+        width: 100%;
+    }
+    .img-container5{
+        height: 50%;
+        width: 100%;
+    }
+    .everett-funko{
+        height: 100%;
+        width: 100%;
+    }
+    .img-container1,.img-container2,.img-container3,.img-container4,.img-container5
+    {
+        border: none;
+    }
+    .picture{
+        justify-self:center;
+    }
+}
