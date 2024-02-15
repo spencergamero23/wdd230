@@ -40,7 +40,7 @@ footer{
     margin-top: 5px;
     margin-bottom:5px;
     transform: rotate(-90deg);
-    width: 4.375rem;
+    width: 90px;
 }
 h1{
     grid-column: 2;
