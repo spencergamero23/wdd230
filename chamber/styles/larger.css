@@ -5,14 +5,14 @@
         grid-column: 1/4;
         width: 100%;
     }
-    .navigation
+    nav
     {
         display: flex;
         justify-content: space-around;
         background-color: var(--light-nav)
     }
 
-    .navigation.darkmode
+    nav.darkmode
     {
         display: flex;
         justify-content: space-around;
