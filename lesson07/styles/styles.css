@@ -1,0 +1,36 @@
+header{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+}
+main{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    justify-items: center;
+    
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+}
+img{
+    grid-column: 2/3;
+    display: block;
+    background: black;
+    animation: fade 15s;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+p{
+    grid-column: 2/3;
+    text-align: center;
+}
+h1{
+    grid-column: 2/3;
+    text-align: center;
+}
