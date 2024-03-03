@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <title>Form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Course Proposal Application</h1>
+            <form method="get" action="./record.html" class="wf1">
+                <fieldset>
+                    <legend>Info</legend>
+                    <label>Username <input type="text" name="uname" required></label>
+                    <label>Password <input type="password" id="password" name="password" pattern="[A-Za-z]{8}" required></label>
+                    <label>Re-enter Your Password <input type="password" id="password2" name="password2" required></label>
+                    <label>Email* <input type="email" id="email" name="email" placeholder="Your byui email address" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+                    <div id="rangevalue">0</div>
+                    <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </datalist>
+                </fieldset>
+
+                <input type="submit" value="Give Rating">
+            </form>
+    
+              
+        <script src="./scripts/password.js"></script>
+        <script src="./scripts/password.js"></script>
+        <script src="./scripts/rating.js"></script>    
+        </main>
+        <footer></footer>
+</body>
+</html>
