@@ -32,14 +32,34 @@
         </nav>
     <script src="./scripts/hambutton.js"></script>
     <main>
-        <div class="hero">
-            <picture>
-                <source srcset="./images/small-hero.webp" media="(max-width: 400px)">
-                <source srcset="./images/medium-hero.webp" media="(max-width: 960px)">
-                <img src="./images/large-hero.webp" alt="A hero image" width="1500px" height="750px">
-            </picture>
-        </div>>
-    
+         
+        <div id="memberInfo"></div>
+
+        <form method="get" action="thanks.html" class="wf1">
+            <fieldset>
+                <legend>Applicant Info</legend>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Phone* <input type="tel" name="phone" placeholder="1235551234" id="phone" required></label>
+                <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" id="email" required></label>
+                <br>
+                <br>
+                <div>Business Information</div>
+                <label>Title or Position* <input type="text" name="title" id="title" pattern="[a-zA-z -]{7,}" required></label>
+                <label>Business Name*<input type="text" name="business" id="business" required></label>
+            </fieldset>
+
+            <fieldset id="radios">
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="membership" value="np" onclick="insertHTML()"> NP Membership</label>
+                <label><input type="radio" name="membership" value="bronze" onclick="insertHTML()"> Bronze Membership</label>
+                <label><input type="radio" name="membership" value="silver" onclick="insertHTML()"> Silver Membership</label>
+                <label><input type="radio" name="membership" value="gold" onclick="insertHTML()"> Gold Membership</label>
+            </fieldset>
+
+            <input type="submit" value="Present Information"> <input type="hidden" name="timestamp" id="timestamp" >
+        </form>
+
     </main>
     <footer>
             <p>
@@ -54,5 +74,6 @@
     <button onclick="toggleTheme()">Toggle Theme</button>
 
     <script src="./scripts/darkmode.js"></script>
+    <script src="./scripts/radio.js"></script>
 </body>
 </html>
