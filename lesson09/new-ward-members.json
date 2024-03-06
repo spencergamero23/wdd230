@@ -1,0 +1,41 @@
+
+{
+    "wardInformation":{
+        "familyName": "Gamero",
+        "moveInDate": "2007-01-01",
+        "numberOfPeople": 7,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Jose Gamero",
+                "gender": "Male",
+                "birthdate": "1968-12-18"
+            },
+            {
+                "name": "Margarita Gamero",
+                "gender": "Female",
+                "birthdate": "1972-10-10"
+            },
+            {
+                "name": "Betzabeth Gamero",
+                "gender": "Female",
+                "birthdate": "1993-11-07"
+            },
+            {
+                "name": "Jose Jaime Gamero",
+                "gender": "Male",
+                "birthdate": "1995-06-11"
+            },
+            {
+                "name": "Spencer Gamero",
+                "gender": "Male",
+                "birthdate": "2004-02-23"
+            },
+            {
+                "name": "Elizabeth Gamero",
+                "gender": "Female",
+                "birthdate": "2007-12-09"
+            }
+        ]
+    }
+}
