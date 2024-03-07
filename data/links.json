@@ -1,0 +1,105 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson02/design-principles.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson02/design.html",
+                    "title": "Design"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson03/chamber-site-plan.html",
+                    "title": "Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/spencergamero23/pen/VwRXvdz",
+                    "title": "Codepen"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson05/bom.html",
+                    "title": "Codepen"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson03/images/landscape.webp",
+                    "title": "Webp"
+                },
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson06/responsive-images.html",
+                    "title": "Responsice Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson07/lazyload.html",
+                    "title": "Lazyload"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson08/form.html",
+                    "title": "Form"
+                },
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson08/record.html",
+                    "title": "Record"
+                },
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson08/table.html",
+                    "title": "Table"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title": "New Ward Members"
+                },
+                {
+                    "url": "https://spencergamero23.github.io/wdd230/lesson09/prophets.html",
+                    "title": "Prophets page"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
