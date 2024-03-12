@@ -172,59 +172,7 @@ h1{
     height: 5%;
   }
 
-  /* Join page css */
-  .wf1{
-    grid-row: 1/4;
-    grid-column: 2/3;
-    background-color: var(--nav);
-    color: var(--text);
-  }
-  .wf1 input[type="text"],
-.wf1 input[type="tel"],
-.wf1 input[type="email"],
-.wf1 input[type="number"]{
-    background-color: #eee;
-    display: block;
-    border: solid 1px #999;
-    border-radius: 6px;
-    color: #555;
-    width: 100%;
-    max-width: 400px;
-    appearance: none;
-}
-.wf1 input[type="submit"]
-{
-    border: none;
-    background-image: linear-gradient(#157145,#2ec4b6);
-    color: #fff;
-    border-radius: 6px;
-    padding: .8rem;
-    width: 96%;
-    max-width: 400px;
-    margin: 1rem 2% 2rem 2%;
-    box-shadow: 1px 1px 4px #999;
-}
-  .wf1 label{
-    display: block;
-    padding-top: 1rem;
-    color: var(--text);
-    font-size: .9rem;
-    background-color: var(--nav);
-  }
-  .wf1 input:required{
-    border-right: solid 8px red;
-}
-.wf1 input:required:valid{
-    border-right: solid 8px green;
-}
-  #memberInfo{
-    text-align: center;
-    border: solid black 1px;
-    border-radius: 10px;
-    background-color: var(--nav);
-    color: var(--text);
-    padding: 1rem;
-  }
+  
   /* Directory page */
   #cards{
     display: flex;
@@ -320,4 +268,19 @@ h1{
   border-radius: 3rem;
   margin: 1rem 1rem 1rem 1rem;
 }
-/* Calendar */
+/* Darkmode Button*/
+#DarkModeButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+#DarkModeButton::before {
+  content: '🌚';
+}
+
+.darkMode #DarkModeButton::before {
+  content: '🌞';
+}
