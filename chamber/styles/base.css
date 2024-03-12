@@ -32,85 +32,72 @@ header{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     color: var(--text);
-    padding-right: 2em;
 }
 
 
 main{
-    grid-column: 2;
+    grid-column: 1/4;
     grid-row: 3;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 30px;
-    margin-left: 1em;   
+    align-items: center;
+    width: 100%;
 }
-
-.img-container1{
-    
-    grid-column: 1/2;
-    grid-row: 1/2;
-    border: 1px solid black;
+#images{
+  grid-column: 2/3;
+  grid-row: 1/4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .everett-park{
-    height: 25%;
+    height: 75%;
     width: 100%;
-}
-
-.img-container2{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    border: 1px solid black;
 }
 
 .everett-ivars{
-    height: 25%;
+    height: 75%;
     width: 100%;
-}
-
-.img-container3{
-    grid-column: 1/2;
-    grid-row: 2/3;
-    border: 1px solid black;
 }
 
 .everett-library{
-    height: 10%;
+    height: 90%;
     width: 100%;
 }
 
-.img-container4{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    border: 1px solid black;
-}
 .everett-skateshop{
-    height: 20%;
+    height: 65%;
+    width: 100%;
 }
-.img-container5{
-    grid-column: 2/3;
-    grid-row: 3/4;
-    border: 1px solid black;
-}
+
 .everett-funko{
-    height: 20%;
+    height: 75%;
+    width: 100%;
 }
-.img-container6{
-  grid-column: 2/3;
-  grid-row: 2/3;
-  border: 1px solid black;
-}
+
 .everett-diner{
-  height: 92%;
+  height: 75%;
   width: 100%;
 }
-.img-container1,.img-container2,.img-container4,.img-container5,.img-container6{
-    height: 34rem;
+
+.img-container1,.img-container2,.img-container3,.img-container4,.img-container5,.img-container6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    border-radius: 3rem;
+    border: 10px solid var(--header-footer);
+    background-color: var(--nav);
+    color: var(--text);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
-.img-container3{
-    height: 20rem;
-}
+
 
 footer{
     border-radius: 25px;
@@ -176,11 +163,7 @@ h1{
   .picture{
     padding: 1rem 1rem 1rem 1rem;
   }
-  div p{
-    border: 1px solid black;
-    background-color: var(---nav);
-    color: var(--text);
-  }
+
 
   #menu{
     position: absolute;
@@ -316,3 +299,25 @@ h1{
 .list #cards .card:nth-child(odd) {
   background-color: var(--header-footer);
 }
+
+.sidenav{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-content: center;
+  margin-top: -40rem;
+}
+.post{
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: var(--nav);
+  color: var(--text);
+  border: 10px solid var(--header-footer);
+  border-radius: 3rem;
+}
+#WelcomeMessage{
+  color: var(--text);
+  background-color: var(--nav);
+  border: 10px solid var(--header-footer);
+  border-radius: 3rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+/* Calendar */
