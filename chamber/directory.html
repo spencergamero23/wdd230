@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="./styles/larger.css">
     <link rel="icon" href="./images/everett_favicon.ico">
     <title>Everett Chamber of Commerce</title>
+    <script src="./scripts/directory.js" defer></script>
 </head>
 <body>
     <header>
         <img class="picture" src="./images/everett_favicon.ico" alt="Image of Everett Washington" width="62.5" height="75">
         <h1>Chamber of Commerce website for Everett Washington</h1>
+        <button id="DarkModeButton"">Toggle Theme</button>
     </header>
     <button id="menu"></button>
         <nav class="navigation">
@@ -30,29 +32,26 @@
             <a href="./directory.html">Directory</a>
             <a href="#">something</a>
         </nav>
-    <script src="./scripts/hambutton.js"></script>
-    <main>
-        <div class="hero">
-            <picture>
-                <source srcset="./images/small-hero.webp" media="(max-width: 400px)">
-                <source srcset="./images/medium-hero.webp" media="(max-width: 960px)">
-                <img src="./images/large-hero.webp" alt="A hero image" width="1500px" height="750px">
-            </picture>
-        </div>>
-    
-    </main>
-    <footer>
+        <main class="grid">
+            <div id="DisplayButtons">
+                <button id="LineItemButton">Table</button>
+                <button id="GridButton">Grid</button>
+            </div>
+            <div id="cards"></div>
+        </main>
+        <footer>
             <p>
                 ©2023
                 Spencer Gamero
                 Everett, Washington🇺🇸
             </p>
             <p id="lastModified">Last Modified: </p>
-    </footer>
+        </footer>
+        
+        
     <script src="./scripts/getdates.js"></script>
-
-    <button onclick="toggleTheme()">Toggle Theme</button>
-
+    <script src="./scripts/hambutton.js"></script>
     <script src="./scripts/darkmode.js"></script>
+    <script src="./scripts/radio.js"></script>
 </body>
 </html>

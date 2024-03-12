@@ -1,0 +1,77 @@
+{
+    "businesses":[
+    {
+        "name": "Strawberry Patch Cafe",
+        "address":"2718 Colby Ave, Everett, WA 98201",
+        "number":"425-339-2257",
+        "url":"",
+        "image":"https://images.squarespace-cdn.com/content/v1/55f34138e4b0300e70bfe909/1623687084694-CAE94GXJ8ZSHUHM9B53O/Front+2.jpg?format=2500w",
+        "membership":"Np Membership"
+    },
+
+    {
+        "name": "Funko HQ",
+        "address":"2802 Wetmore Ave, Everett, WA 98201",
+        "number":"425-783-3616",
+        "url":"https://funko.com/",
+        "image":"https://www.heraldnet.com/wp-content/uploads/2022/03/28360055_web1_M-FunkoHQ-EDH-220308.jpg",
+        "membership":"Gold Membership"
+    },
+    {
+        "name": "Everett Comics",
+        "address":"2831 Wetmore Ave, Everett, WA 98201",
+        "number":"425-252-8181",
+        "url":"https://everettcomics.com/",
+        "image":"https://s3-media0.fl.yelpcdn.com/bphoto/9TSwL2kbwKyB9QepEwmDsw/1000s.jpg",
+        "membership":"Np Membership"
+    },
+    {
+        "name": "Everett Pops",
+        "address":"2826 Rucker Ave Suite A, Everett, WA 98201",
+        "number":"",
+        "url":"https://everettpops.com/",
+        "image":"https://i0.wp.com/everettpops.com/wp-content/uploads/2022/07/IMG_3728.jpg?resize=683%2C1024&ssl=1",
+        "membership":"Np Membership"
+    },
+    {
+        "name": "Mothership Pro Scooters",
+        "address":"7529 Beverly Blvd #2, Everett, WA 98203",
+        "number":"425-903-4400",
+        "url":"https://www.shopmothership.com/",
+        "image":"https://s3-media1.fl.yelpcdn.com/bphoto/JfMhyqreojuraaVKcTIFTA/l.jpg",
+        "membership":"Np Membership"
+    },
+    {
+        "name": "Enseamada Cafe",
+        "address":"11114 Evergreen Way ste a, Everett, WA 98204",
+        "number":"206-519-4996",
+        "url":"https://www.facebook.com/people/enseamada/100064760838481/",
+        "image":"https://images.squarespace-cdn.com/content/v1/55f34138e4b0300e70bfe909/55600723-efd7-4fbc-803e-32be9834d2f4/IMG_1259+%281%29.jpg",
+        "membership":"Np Membership"
+    },
+    {
+        "name": "Nuevo Amanecer Pupuseria",
+        "address":"1519 132nd St SE, Everett, WA 98208",
+        "number":"425-388-7222",
+        "url":"http://ordernuevoamanecerpupuseria.com/",
+        "image":"https://www.dir.gen.tr/image/522985-0-nuevo-amanecer-pupuseria.jpg",
+        "membership":"Np Membership"
+    },
+    {
+        "name": "Sushi Spott",
+        "address":"1700 132nd St SE, Mill Creek, WA 98012",
+        "number":"425-388-4553",
+        "url":"http://www.sushispott.com/",
+        "image":"https://nebula.wsimg.com/43ef0e42741776c691e6f5360667dc60?AccessKeyId=E5A0DBA4405FA6D4EF12&disposition=0&alloworigin=1",
+        "membership":"Np Membership"
+    },
+    {
+        "name": "O Donuts",
+        "address":"520 128th St SW Ste B-7, Everett, WA 98204",
+        "number":"425-322-3451",
+        "url":"https://places.singleplatform.com/o-donuts/menu?ref=google",
+        "image":"https://lh3.googleusercontent.com/p/AF1QipMBF1EcF2B07W7XW0vQw2GqbA3EOor6MCInnMHL=s1360-w1360-h1020",
+        "membership":"Np Membership"
+    }
+    ]   
+}
