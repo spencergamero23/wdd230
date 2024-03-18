@@ -31,7 +31,7 @@ header{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    color: var(--text);
+    color: white;
 }
 
 
@@ -85,7 +85,7 @@ footer{
     grid-column: 1/4;
     grid-row:4;
     background-color: var(--header-footer);
-    color: var(--text);
+    color: white;
     width: 100%;
 }
 
@@ -201,7 +201,9 @@ h1{
 .list #cards {
     display: block;
 }
-
+.list #cards .card:nth-child(odd) a{
+  color: white;
+}
 .list #cards .card {
     border-radius: 0;
     border: 0;
@@ -227,6 +229,10 @@ h1{
 }
 .list #cards .card:nth-child(odd) {
   background-color: var(--header-footer);
+  color: white; 
+}
+.list #cards .card:nth-child(odd) a{
+  color: white;
 }
 
 .sidenav{
@@ -303,13 +309,14 @@ h1{
   border: none;
     background-image: linear-gradient(#157145,#2ec4b6);
     color: #fff;
+    width: 200px;
     border-radius: 6px;
     padding: 2rem;
     box-shadow: 1px 1px 4px #999;
     position: absolute;
     z-index: 10;
     left: 50%;
-    top: 50%;
+    top: 65%;
     transform: translateY(-50%);
     transform:translateX(-50%);
 }
