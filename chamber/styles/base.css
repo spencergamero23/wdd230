@@ -166,7 +166,7 @@ h1{
     margin-bottom: 2rem;
   }
   #cards section{
-    border: 5px solid var(--header-footer);
+    border: 10px solid var(--header-footer);
     border-radius: 2rem;
     text-align: center;
     background-color: var(--nav);
