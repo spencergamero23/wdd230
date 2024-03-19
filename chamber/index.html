@@ -24,12 +24,16 @@
         <button id="DarkModeButton" ></button>
     </header>
     <button id="menu"></button>
-        <nav class="navigation">
-            <a href="./index.html">Home</a>
-            <a href="./discover.html">Discover</a>
-            <a href="./join.html">Join</a>
-            <a href="./directory.html">Directory</a>
-        </nav>
+    <nav class="navigation">
+        <a href="./index.html">Home</a>
+        <a href="./discover.html">Discover</a>
+        <a href="./join.html">Join</a>
+        <a href="./directory.html">Directory</a>
+    </nav>
+    <div id="Banner">
+        <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m</p>
+        <button onclick="this.parentNode.style.display='none';">X</button>
+    </div>
     <script src="./scripts/hambutton.js"></script>
     <main>
         <div class="hero">
@@ -48,6 +52,7 @@
                 <img id="weather-icon" src="" alt="">
                 <p id="Temperature"></p>
             </div>
+            <div id = ThreeDayForecast></div>
         </section>
 
         <section id="Events">

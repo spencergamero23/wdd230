@@ -320,3 +320,38 @@ h1{
     transform: translateY(-50%);
     transform:translateX(-50%);
 }
+#ThreeDayForecast{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+#ThreeDayForecast ul{
+  margin: 0;
+  padding: 0;
+}
+#Banner{
+  background-color: var(--nav);
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  grid-row: 3;
+  grid-column: 1/4;
+  z-index: 10;
+  width: 80%;
+  height: 4%;
+  border: 10px solid var(--header-footer);
+  border-radius: 3rem;
+}
+#Banner button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+  
