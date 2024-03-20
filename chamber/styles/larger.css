@@ -33,6 +33,37 @@
     #menu{
         display: none;
     }
+    #DarkModeButton{
+        right: 0;
+        top: 1rem;
+    }
+    /* Chamber Homepage  */
+    .hero{
+        height: 800px;
+    }
+    #joinButton{
+        height: 100px;
+        width: 200px;
+    }
+    #sections{
+        flex-wrap: nowrap;
+    }
+    /* Discover */
+    .img-container1,.img-container2,.img-container3,.img-container4,.img-container5,.img-container6,.img-container7{
+        flex-wrap: wrap;
+        width: 40%;
+    }
+    
+    /* Directory */
 
- 
+    /* Grid Style */
+    #cards section{
+        padding: 1rem;
+    }
+
+    /* Table Style */
+    .list #cards .card{
+        flex-direction: row;
+    }
+
 }
