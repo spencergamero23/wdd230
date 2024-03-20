@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./styles/normalize.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks</title>
+    <meta name="description" content="The purpose of the Everett Chamber of Commerce would have to be a show case of Everett and the different things that you could do while visiting. For instance show casing some local resaurants and stores and helping bring business there.">
+    <meta name="author" content="Spencer Gamero">
+    <meta property="og:title" content="Chamber of Commerce website for Everett">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content= "https://d3mqmy22owj503.cloudfront.net/05/500005/images/site_graphics/Everett-City-Scene.jpeg">
+    <meta property="og:url" content="https://spencergamero23.github.io/wdd230/">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="icon" href="./images/everett_favicon.ico">
+    <title>Chamber of Commerce - Everett - Join</title>
 </head>
 <body>
-    <h1>Thank You!</h1>
+    <header>
+        <a href="./index.html"><img class="picture" src="./images/everett_favicon.ico" alt="Image of Everett Washington" width="62.5" height="75"> </a>
+        <h1>Chamber of Commerce website for Everett Washington</h1>
+        <button id="DarkModeButton"></button>
+    </header>
+    <button id="menu"></button>
+        <nav class="navigation">
+            <a href="./index.html">Home</a>
+            <a href="./discover.html">Discover</a>
+            <a href="./join.html">Join</a>
+            <a href="./directory.html">Directory</a>
+            <a href="#">Something</a>
+        </nav>
+    <script src="./scripts/hambutton.js"></script>
+    <main class="thankyou">
+         <h1>Thank you!</h1>
+    </main>
+    <footer>
+        <p>555 Everett Street <br> Everett, WA 98201</p>
+        <br>
+        <p>info@everettchamber.org <br> 555-555-5555</p>
+        <div>
+        <span>©2023 | Spencer Gamero | Everett, Washington🇺🇸</span> | <span id="lastModified">Last Modified: </span>
+        </div>
+    </footer>
+
+
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+    <script src="./scripts/radio.js"></script>
+    <script src="./scripts/update.js"></script>
 </body>
 </html>
