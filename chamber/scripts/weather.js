@@ -14,7 +14,6 @@ async function apiFetch() {
         }
 
         const weather = await response.json();
-        console.log(weather);
         displayWeather(weather);
 
     } catch (error) {
