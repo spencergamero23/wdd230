@@ -5,18 +5,13 @@
         grid-column: 1/4;
         width: 100%;
     }
-    nav
-    {
-        display: flex;
-        justify-content: space-around;
-        background-color: var(--nav)
-    }
 
-    nav
+    .navigation
     {
         display: flex;
         justify-content: space-around;
-        background-color: var(--nav)
+        background-color: var(--nav);
+        flex-direction: row;
     }
     
     .navigation a{
@@ -35,7 +30,7 @@
     }
     #DarkModeButton{
         right: 0;
-        top: 1rem;
+        top: 0rem;
     }
     /* Chamber Homepage  */
     .hero{
