@@ -1,0 +1,99 @@
+:root{
+    --text: white;
+    --lychee: #C51E3A;
+    --passion-fruit: #FF8C00;
+    --mango: #F4C430;
+
+}
+body{
+    margin: 0;
+}
+header{
+    display: block;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(153, 175, 172, 0.6);
+    height: 12.5rem;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.main-bar nav a {
+    margin: 20px;
+    font-size: larger;
+}
+.main-bar nav{
+    margin-right: 5rem;
+}
+.main-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Home page */
+.hero-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.hero-button{
+    position: absolute;
+    bottom: 5rem;
+    width: 20rem;
+    height: 3rem;
+}
+
+.lychee{
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.passion-fruit{
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.passion-fruit-paragraph{
+    margin-left: 1rem;
+}
+
+.mango-smoothie{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.info img{
+    padding: 2rem;
+}
+
+.info:nth-child(2) {
+    background-color: var(--lychee);
+    margin-top: 5rem;
+}
+.info:nth-child(3){
+    background-color: var(--passion-fruit);
+}
+.info:nth-child(4){
+    background-color: var(--mango);
+    margin-bottom: 5rem;
+}
+
